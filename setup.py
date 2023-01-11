@@ -8,7 +8,7 @@ try:
 except:
     CYTHON = False
 
-DEPENDENCIES = ['setuptools']
+DEPENDENCIES = ['setuptools', 'biopython]
 
 # get the version without an import
 VERSION = "Undefined"

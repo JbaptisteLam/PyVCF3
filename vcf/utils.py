@@ -1,7 +1,7 @@
 """
 Utilities for VCF files.
 """
-from .bgzf import BgzfBlocks
+from Bio.bgzf import BgzfBlocks
 import os
 def get_uncompressed_size(filepath):
 
